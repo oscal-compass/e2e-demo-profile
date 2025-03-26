@@ -8,7 +8,7 @@ def get_value(file: str, key: str) -> str:
 
 
 if __name__ == "__main__":
-    file = 'automation.yaml'
+    file = 'automation_config.yaml'
     key = sys.argv[1]
     result = get_value(file, key)
     print(result)
