@@ -13,13 +13,13 @@ jobs:
     name: Release
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
       with:
         submodules: true
         fetch-depth: 0
         token: ${{ secrets.GITHUB_TOKEN }}
     - name: Set up Python 3.9
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@v4
       with:
         python-version: 3.9
     - name: Install Trestle
@@ -34,13 +34,13 @@ jobs:
     needs: release
     steps:
     - name: Clone branch
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       with:
         fetch-depth: 0
         ref: main
         token: ${{ secrets.PUSH_TOKEN }}
     - name: Clone downstream repo
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       with:
         repository: oscal-compass/e2e-demo-cd
         path: './e2e-demo-cd'
@@ -56,13 +56,13 @@ jobs:
     needs: release
     steps:
     - name: Clone branch
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       with:
         fetch-depth: 0
         ref: main
         token: ${{ secrets.PUSH_TOKEN }}
     - name: Clone downstream repo
-      uses: actions/checkout@v2
+      uses: actions/checkout@v4
       with:
         repository: oscal-compass/e2e-demo-ssp
         path: './e2e-demo-ssp'
