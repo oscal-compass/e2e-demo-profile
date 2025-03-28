@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.5 (2025-03-28)
+### Fix
+* Add relative path to config ([`afd4d04`](https://github.com/oscal-compass/e2e-demo-profile/commit/afd4d040f3b6eb38a393aea70108e1dee33d4ff7))
+
 ## v0.1.4 (2025-03-28)
 ### Fix
 * Test automation config ([`63930de`](https://github.com/oscal-compass/e2e-demo-profile/commit/63930defd6e5c0acb0234a0c1826501081d63621))
