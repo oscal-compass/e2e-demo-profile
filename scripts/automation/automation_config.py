@@ -1,5 +1,4 @@
-import sys
-import yaml
+import os, sys, yaml
 
 def get_value(file: str, key: str) -> str:
     with open(file, 'r') as f:
@@ -8,7 +7,8 @@ def get_value(file: str, key: str) -> str:
 
 
 if __name__ == "__main__":
-    file = './scripts/automation/automation_config.yaml'
+    parentdir = os.path.dirname(os.path.abspath(__file__))
+    file = parentdir + '/automation_config.yaml'
     key = sys.argv[1]
     result = get_value(file, key)
     print(result)
