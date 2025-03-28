@@ -2,6 +2,11 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.3 (2025-03-28)
+### Fix
+* Use automation config ([`8f180e2`](https://github.com/oscal-compass/e2e-demo-profile/commit/8f180e2062fbd23bd9ff4435d882845c4e29472a))
+* Update ac-1.md ([#6](https://github.com/oscal-compass/e2e-demo-profile/issues/6)) ([`acdb081`](https://github.com/oscal-compass/e2e-demo-profile/commit/acdb0813b3b246f7f381ede0943115df97fb5987))
+
 ## v0.1.2 (2025-03-28)
 ### Fix
 * Create a release ([`1ec1b09`](https://github.com/oscal-compass/e2e-demo-profile/commit/1ec1b090c3b9281c466d6372109e29141381b392))
