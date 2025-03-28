@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.2 (2025-03-28)
+### Fix
+* Create a release ([`1ec1b09`](https://github.com/oscal-compass/e2e-demo-profile/commit/1ec1b090c3b9281c466d6372109e29141381b392))
+
 ## v0.1.1 (2025-03-10)
 ### Fix
 * Test create a release ([`f8eb45e`](https://github.com/oscal-compass/e2e-demo-profile/commit/f8eb45ef5cd8df5159967d88a5b29ab8344b2762))
