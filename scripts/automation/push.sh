@@ -60,7 +60,7 @@ function github-branch-commit() {
     
     local remote=origin
     if [[ $GITHUB_TOKEN ]]; then
-        remote=https://$GITHUB_TOKEN@github.com/oscal-compass/e2e-demo-profile
+        remote=$(python automation_config.py "push-remote")
     fi
     if [[ $GIT_BRANCH != main ]] && [[ $GIT_BRANCH != develop ]]; then
         msg "not pushing updates to branch $GIT_BRANCH"
