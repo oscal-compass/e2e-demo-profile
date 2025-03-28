@@ -60,7 +60,7 @@ function github-branch-commit() {
     
     local remote=origin
     if [[ $GITHUB_TOKEN ]]; then
-        remote=$(python automation_config.py "push-remote")
+        remote=$(python ./scripts/automation/automation_config.py "push-remote")
     fi
     if [[ $GIT_BRANCH != main ]] && [[ $GIT_BRANCH != develop ]]; then
         msg "not pushing updates to branch $GIT_BRANCH"

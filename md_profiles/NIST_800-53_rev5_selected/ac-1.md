@@ -33,7 +33,7 @@ x-trestle-set-params:
     profile-param-value-origin: <REPLACE_ME>
   ac-01_odp.01:
     profile-values:
-      - <REPLACE_ME>
+      - Test
     profile-param-value-origin: <REPLACE_ME>
   ac-01_odp.02:
     profile-values:
@@ -151,3 +151,6 @@ Access control policy and procedures address the controls in the AC family that 
 <!-- Subparts may be added with nested hash levels of the form ### My Subpart Name -->
 <!-- underneath the parent ## Control or ## Part being added -->
 <!-- See https://oscal-compass.github.io/compliance-trestle/tutorials/ssp_profile_catalog_authoring/ssp_profile_catalog_authoring for guidance. -->
+
+## Control my_guidance
+Test Guidance.
