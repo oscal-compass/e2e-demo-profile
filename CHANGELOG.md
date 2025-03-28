@@ -2,6 +2,10 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.4 (2025-03-28)
+### Fix
+* Test automation config ([`63930de`](https://github.com/oscal-compass/e2e-demo-profile/commit/63930defd6e5c0acb0234a0c1826501081d63621))
+
 ## v0.1.3 (2025-03-28)
 ### Fix
 * Use automation config ([`8f180e2`](https://github.com/oscal-compass/e2e-demo-profile/commit/8f180e2062fbd23bd9ff4435d882845c4e29472a))
