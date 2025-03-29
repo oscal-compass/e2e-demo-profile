@@ -2,6 +2,11 @@
 
 <!--next-version-placeholder-->
 
+## v0.1.6 (2025-03-29)
+### Fix
+* Update ac-1.md ([#13](https://github.com/oscal-compass/e2e-demo-profile/issues/13)) ([`2abc773`](https://github.com/oscal-compass/e2e-demo-profile/commit/2abc7733b4d5de23cd8ac0799aef252e2e1f4e22))
+* Update ac-1.md ([#12](https://github.com/oscal-compass/e2e-demo-profile/issues/12)) ([`d8fb2c4`](https://github.com/oscal-compass/e2e-demo-profile/commit/d8fb2c4059c08f5baafa32f5aac0b5fe256f6a1d))
+
 ## v0.1.5 (2025-03-28)
 ### Fix
 * Add relative path to config ([`afd4d04`](https://github.com/oscal-compass/e2e-demo-profile/commit/afd4d040f3b6eb38a393aea70108e1dee33d4ff7))
